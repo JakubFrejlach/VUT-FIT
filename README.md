@@ -2,7 +2,9 @@
 ## My school projects
 
 ### 1BIT Winter:
-IZP
+IZP - Introduction to Programming Systems
 
 
-IUS
+IUS - Introduction to Software Engineering
+### 1Bit Summer
+
