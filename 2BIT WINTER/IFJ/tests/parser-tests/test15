@@ -1,0 +1,5 @@
+if 5 < 10 then then
+a = 10
+else
+a = 4
+end

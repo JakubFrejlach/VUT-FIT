@@ -1,0 +1,15 @@
+# Muj nejlepsi program
+a = 5
+# Tak to asi nebude nejlepsi program
+def foo(a, b)
+if(a) then
+a = b # tady se deje kvantova fyzika, tohle neni treba ani komentovat
+else
+b = a
+=begin zkouska
+komentar
+=en
+=endd
+=end komentar nam konci
+end
+end

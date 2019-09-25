@@ -1,0 +1,9 @@
+def foo()
+a = 10
+end
+
+def funkce(parametr)
+b = 10
+end
+
+funkce(foo)

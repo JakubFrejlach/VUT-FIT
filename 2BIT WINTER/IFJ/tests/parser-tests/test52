@@ -1,0 +1,6 @@
+def foo()
+funkce()
+end
+
+def funkce(a, b)
+end

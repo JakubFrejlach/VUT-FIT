@@ -1,0 +1,35 @@
+IPK - projekt 2 - varianta OMEGA - Jednoduchy sitovy TCP/UDP scanner v C/C++
+
+****** UVOD ******
+
+Program skenuje zvolene porty skrze TCP/UDP na zvolene domene/adrese a na
+standardni vystup tiskne informace o tom, zdali jsou porty ve stavu
+open/closed pro UDP nebo open/closed/filtered pro TCP.
+Program podporuje skenovani pomoci domeny, IPv4 adresy nebo IPv6 adresy.
+Rozhrani je mozno zvolit pomoci argumentu nebo je vybrano automaticky.
+
+****** SPUSTENI ******
+
+Pred spustenim je nutno program prelozit pomoci prikazu make z balicku Make a
+je nutno mit nainstalovanou knihovnu libpcap.
+
+Program je nutno spustit jako root uzivatel (sudo/su):
+sudo ./ipk-scan {-i <rozhrani>} -pu <porty> -pt <porty> [<domenove jmeno> | <IP adresa>]
+
+Parametry:
+-i <rozhrani> - je nepovinny parametr, pokud je zvolen, program pouzije specifikovane
+                rozhrani. Pokud neni parametr pouzit, je zvoleno prvni neloopbackove
+                rozhrani.
+-pu <porty>   - specifikuje porty, ktere se maji skenovat pomoci UDP. Porty lze zadat
+                pomoci vyctu (1,2,3,4,5) nebo pomoci rozsahu (1-5). Alespon jeden
+                parametr z -pu/-pt musi byt zvolen.
+-pt <porty>   - specifikuje porty, ktere se maji skenovat pomoci TCP. Porty lze zadat
+                pomoci vyctu (1,2,3,4,5) nebo pomoci rozsahu (1-5). Alespon jeden
+                parametr z -pu/-pt musi byt zvolen.
+<domenove jmeno> | <IP adresa> - specifikuje domenu nebo IP adresu (IPv4/IPv6),
+                                 ktera ma byt oskenovana. Tento parametr je povinny.
+
+Pro ziskani napovedy v terminalu, je nutno spustit program nasledovne:
+./ipk-scan -help
+
+Tento parametr nemuze byt kombinovan s zadnym dalsim.

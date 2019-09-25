@@ -1,0 +1,9 @@
+if 5 < 10 then
+while 4 do
+a = 10
+end
+else
+while 5 do
+a = 6
+end
+end

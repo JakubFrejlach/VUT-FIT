@@ -1,0 +1,10 @@
+def foo()
+if 4 then
+a = 5
+else
+a = 10
+end
+while 40 do
+a = 42
+end
+end

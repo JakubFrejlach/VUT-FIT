@@ -1,0 +1,13 @@
+while 5 do
+if 4 < 10 then
+a = 10
+else
+while 4 do
+if 4 then
+a = 10
+else
+a = 5
+end
+end
+end
+end

@@ -1,0 +1,23 @@
+if 5 < 10 then
+if 5 < 9 then
+if 5 < 8 then
+a = 10
+else
+a = 5
+end
+else
+a = 6
+end
+else
+a = 7
+end
+
+if 6 < 10 then
+a = 10
+else
+if 4 > 10 then
+a = 2
+else
+a = 1
+end
+end

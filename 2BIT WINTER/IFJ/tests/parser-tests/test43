@@ -1,0 +1,6 @@
+def foo()
+foo2()
+end
+
+def foo2()
+end

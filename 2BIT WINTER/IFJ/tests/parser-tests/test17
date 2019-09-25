@@ -1,0 +1,7 @@
+if 5 < 10 then
+a = 10
+else
+a = 5
+else
+a = 1
+end 

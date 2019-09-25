@@ -1,0 +1,6 @@
+expression = 4 < 2
+expression1 = 2 > 4
+expression2 = 2 >= 4
+expression3 = 2 <= 4
+expression4 = 2 == 4
+expression5 = 2 != 4
