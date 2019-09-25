@@ -23,5 +23,5 @@
 **IPK** - Computer Communications and Networks  
 **IPP** - Principles of Programming Languages  
 **ICP** - The C++ Programming Language  
-**ICS** - The C# Programming Language
+**ICS** - The C# Programming Language  
 **ISJ** - Script Languages  
